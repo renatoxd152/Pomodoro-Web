@@ -1,17 +1,10 @@
-import { Container } from './components/Container';
-import { Heading } from './components/Heading';
+import { AboutPomodoro } from './pages/AboutPomodoro';
 import './styles/global.css';
 import './styles/theme.css';
 
 function App()
 {
-    return( 
-    <> 
-        <Container>
-            <Heading>Testando meu componente heading</Heading>
-            <section>LOGO</section></Container>
-        <Container><section>Menu</section></Container>
-    </>)
+    return <AboutPomodoro/>
 }
 
 export { App };
